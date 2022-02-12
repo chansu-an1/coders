@@ -118,7 +118,7 @@ public class ProjectController {
 		commandMap.put("PROJECT_NO", request.getParameter("PROJECT_NO"));
 		commandMap.put("APPLICATION_USER_NO", request.getParameter("APPLICATION_USER_NO"));
 
-		projectService.insertProjectApp(commandMap.getMap());
+	
 		return mav;
 
 	}
