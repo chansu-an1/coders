@@ -13,8 +13,6 @@ public interface ProjectService {
 	List<Map<String, Object>> selectProjectEList(Map<String, Object> map) throws Exception;
 
 
-	void insertProject(Map<String, Object> map) throws Exception;
-
 	Map<String, Object> selectProjectDetail(Map<String, Object> map) throws Exception;
 
 	void updateProject(Map<String, Object> map) throws Exception;
